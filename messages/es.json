@@ -1,0 +1,167 @@
+{
+  "nav": {
+    "about": "Quiénes somos",
+    "historia": "Historia",
+    "impacto": "Impacto",
+    "vision": "Visión",
+    "donar": "Donar",
+    "contacto": "Contacto",
+    "ubicacion": "Ubicación"
+  },
+  "hero": {
+    "tagline": "Fe que transforma vidas.",
+    "tagline2": "Impacto que transforma ciudades.",
+    "sub": "Desde 2017, en el corazón de Medellín, llevando esperanza, restauración y propósito.",
+    "cta": "Conoce nuestra historia",
+    "donar": "Quiero donar"
+  },
+  "about": {
+    "label": "Quiénes somos",
+    "title": "No somos una iglesia tradicional.",
+    "subtitle": "Somos un movimiento.",
+    "body": "The Church Medellín ha estado en el corazón de una de las ciudades más resilientes de América Latina, llevando esperanza, restauración y propósito a comunidades que por años vivieron marcadas por la violencia, la pobreza y la exclusión. Vamos hacia las personas, entramos en los territorios y nos involucramos directamente en la transformación de vidas.",
+    "conviction": "Cuando una vida es transformada, una familia cambia. Cuando una familia cambia, una comunidad entera se levanta.",
+    "mision_label": "Nuestra Misión",
+    "mision": "Transformar vidas, familias y comunidades a través del evangelio — de forma sostenible y expansiva."
+  },
+  "historia": {
+    "label": "Nuestra Historia",
+    "title": "Un camino de fe",
+    "intro": "Cada sede es un testimonio de obediencia y crecimiento.",
+    "items": [
+      {
+        "year": "2017",
+        "lugar": "Inicios",
+        "desc": "Con un grupo pequeño y una promesa grande, arrancamos a creer que Dios haría lo que solo Él puede hacer."
+      },
+      {
+        "year": "2017",
+        "lugar": "Sede Auditorio Mayorca",
+        "desc": "Nuestros primeros pasos como congregación, con el sueño de impactar una ciudad."
+      },
+      {
+        "year": "2018–2019",
+        "lugar": "Sede Las Vegas",
+        "desc": "Creciendo en comunidad, formando líderes, expandiendo el alcance."
+      },
+      {
+        "year": "2020–2023",
+        "lugar": "Sede Inexmoda",
+        "desc": "Avanzando en medio de la adversidad, construyendo un modelo sostenible de transformación."
+      },
+      {
+        "year": "2023",
+        "lugar": "Sede Itagüí",
+        "desc": "Desde 2023, avanzando en propósito. Una nueva sede, nuevas vidas, el mismo fuego."
+      }
+    ],
+    "frase": "Sembramos con obediencia, Avanzamos con confianza, Permanecemos con fidelidad"
+  },
+  "impacto": {
+    "label": "Impacto Social",
+    "title": "Donde otros no llegan",
+    "intro": "Trabajamos donde el cambio es más urgente y el amor más necesario.",
+    "made_label": "MADE",
+    "made_title": "Transformación de esferas",
+    "made_body": "Un modelo de transformación integral que busca llevar el mensaje de Jesús y generar impacto sostenible en gobierno, fuerzas militares, educación, deporte y el sistema penitenciario.",
+    "cards": [
+      {
+        "icon": "♀",
+        "title": "Mujeres",
+        "sub": "De la supervivencia a la dignidad",
+        "body": "Acompañamos a mujeres que han vivido contextos de prostitución, abuso y abandono, ayudándolas a reconstruir su identidad, autoestima y proyecto de vida."
+      },
+      {
+        "icon": "⚡",
+        "title": "Jóvenes",
+        "sub": "De la adicción al propósito",
+        "body": "Trabajamos con jóvenes que crecieron rodeados de drogas y violencia. A través de comunidad y formación, hoy vemos nuevas trayectorias de vida con propósito."
+      },
+      {
+        "icon": "🤝",
+        "title": "Hombres",
+        "sub": "De la violencia a la responsabilidad",
+        "body": "Hombres que hoy lideran comunidades, antes involucrados en pandillas. Hoy trabajan honestamente, han restaurado sus familias y son referentes positivos."
+      },
+      {
+        "icon": "🌱",
+        "title": "Niños y adolescentes",
+        "sub": "La generación que crecerá diferente",
+        "body": "Invertimos en la formación de niños y adolescentes con valores, identidad y propósito, sembrando una generación que no repetirá las historias del pasado."
+      }
+    ],
+    "noches_label": "Noches con Jesús",
+    "noches_title": "El modelo que llega donde otros no llegan",
+    "noches_body": "Cada semana, equipos de líderes se despliegan en barrios y comunas de Medellín para crear espacios de encuentro donde las personas pueden experimentar fe, comunidad y restauración — sin necesidad de salir de su contexto.",
+    "noches_items": [
+      "Encuentros semanales en comunidades locales",
+      "Liderazgo formado dentro del mismo territorio",
+      "Acompañamiento continuo, no eventos aislados",
+      "Enfoque relacional: conexión, oración, seguimiento"
+    ]
+  },
+  "vision": {
+    "label": "Visión",
+    "title": "Por qué Medellín",
+    "body": "Medellín es una ciudad que el mundo conoce por su pasado... pero que hoy está escribiendo una nueva historia. Después de décadas marcadas por el conflicto, representa uno de los casos más relevantes de transformación urbana en el mundo. Sin embargo, en muchas comunas aún persisten desigualdad, violencia estructural y falta de oportunidades.",
+    "diferencia_title": "Lo que nos diferencia",
+    "diferencia_items": [
+      "Presencia real en territorio — no operamos desde la distancia",
+      "Modelo relacional y sostenible — no dependemos de eventos masivos",
+      "Formación de líderes locales — el cambio permanece en la comunidad",
+      "Enfoque integral — espiritual, social y económico",
+      "Capacidad de expansión — modelo replicable en nuevas ciudades"
+    ],
+    "largo_title": "Visión de largo plazo",
+    "largo_body": "Creemos en una iglesia que no solo crece, sino que se establece, se consolida y se multiplica. Estamos trabajando por un espacio que se convierta en un centro de transformación para la ciudad, un punto de envío hacia nuevos territorios y una plataforma para escalar el modelo a Rionegro, Bello y más municipios."
+  },
+  "donar": {
+    "label": "Donaciones",
+    "title": "Sé parte de la transformación",
+    "body": "Tu inversión aquí cambia historias reales, fortalece comunidades enteras y construye un modelo que puede replicarse en otras ciudades. Esto no es solo impacto social. Es transformación con propósito eterno.",
+    "how_title": "Cómo se usa la inversión",
+    "how_items": [
+      "Desarrollo de infraestructura física — espacios para mayor alcance y capacidad.",
+      "Formación y multiplicación de líderes en todos los segmentos.",
+      "Programas de transformación: mujeres, jóvenes, hombres, niños."
+    ],
+    "cta": "Quiero donar",
+    "infra_title": "Infraestructura como acelerador",
+    "infra_body": "Estamos dando un paso estratégico hacia la consolidación de un espacio propio — un lugar que permita impactos masivos sostenidos, operación continua sin restricciones y escalabilidad del modelo."
+  },
+  "contacto": {
+    "label": "Conectemos",
+    "title": "Medellín está lista.",
+    "body": "Si estás evaluando dónde invertir tu tiempo, recursos y confianza, queremos conversar contigo. El modelo está funcionando. Ahora es el momento de escalar.",
+    "pastor": "Andrés Guerra",
+    "cargo": "Senior Pastor — THE CHURCH MEDELLÍN",
+    "tel": "+57 318 689 8956",
+    "form_name": "Tu nombre",
+    "form_email": "Tu correo",
+    "form_msg": "Tu mensaje",
+    "form_send": "Enviar mensaje"
+  },
+  "footer": {
+    "rights": "© 2024 The Church Medellín. Todos los derechos reservados.",
+    "follow": "Síguenos"
+  },
+  "video": {
+    "placeholder": "Video próximamente"
+  },
+  "ubicacion": {
+    "label": "Encuéntranos",
+    "title": "Ven a casa",
+    "horario_label": "Horario de servicios",
+    "horario": "Todos los domingos",
+    "hora": "10:00 AM — Único servicio",
+    "dir_label": "Dirección",
+    "dir1": "Itagüí – San Fernando",
+    "dir2": "A media cuadra del Parque de las Chimeneas",
+    "dir3": "Edificio Electroservimos – Piso 3",
+    "dir4": "Calle 86 # 51A – 16",
+    "btn_gmaps": "Google Maps",
+    "btn_waze": "Waze",
+    "btn_apple": "Apple Maps",
+    "btn_get_directions": "Cómo llegar"
+  }
+}

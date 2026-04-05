@@ -1,0 +1,167 @@
+{
+  "nav": {
+    "about": "About",
+    "historia": "Our Story",
+    "impacto": "Impact",
+    "vision": "Vision",
+    "donar": "Give",
+    "contacto": "Contact",
+    "ubicacion": "Location"
+  },
+  "hero": {
+    "tagline": "Faith that transforms lives.",
+    "tagline2": "Impact that transforms cities.",
+    "sub": "Since 2017, at the heart of Medellín, bringing hope, restoration, and purpose.",
+    "cta": "Our Story",
+    "donar": "Give Now"
+  },
+  "about": {
+    "label": "Who We Are",
+    "title": "We are not a traditional church.",
+    "subtitle": "We are a movement.",
+    "body": "The Church Medellín has been at the heart of one of the most resilient cities in Latin America, bringing hope, restoration, and purpose to communities long marked by violence, poverty, and exclusion. We go to the people, enter the territories, and get directly involved in the transformation of lives.",
+    "conviction": "When one life is transformed, a family changes. When a family changes, an entire community rises.",
+    "mision_label": "Our Mission",
+    "mision": "To transform lives, families and communities through the gospel — sustainably and expansively."
+  },
+  "historia": {
+    "label": "Our Story",
+    "title": "A journey of faith",
+    "intro": "Every location is a testimony of obedience and growth.",
+    "items": [
+      {
+        "year": "2017",
+        "lugar": "The Beginning",
+        "desc": "With a small group and a big promise, we started believing that God would do what only He can do."
+      },
+      {
+        "year": "2017",
+        "lugar": "Auditorio Mayorca Campus",
+        "desc": "Our first steps as a congregation, with the dream of impacting a city."
+      },
+      {
+        "year": "2018–2019",
+        "lugar": "Las Vegas Campus",
+        "desc": "Growing in community, forming leaders, expanding the reach."
+      },
+      {
+        "year": "2020–2023",
+        "lugar": "Inexmoda Campus",
+        "desc": "Moving forward through adversity, building a sustainable model of transformation."
+      },
+      {
+        "year": "2023",
+        "lugar": "Itagüí Campus",
+        "desc": "Since 2023, advancing in purpose. A new campus, new lives, the same fire."
+      }
+    ],
+    "frase": "We sow with obedience, Advance with confidence, Remain with faithfulness"
+  },
+  "impacto": {
+    "label": "Social Impact",
+    "title": "Where others don't go",
+    "intro": "We work where change is most urgent and love is most needed.",
+    "made_label": "MADE",
+    "made_title": "Sphere Transformation",
+    "made_body": "A comprehensive transformation model that seeks to carry the message of Jesus and generate sustainable impact in government, military, education, sports, and the prison system.",
+    "cards": [
+      {
+        "icon": "♀",
+        "title": "Women",
+        "sub": "From survival to dignity",
+        "body": "We accompany women who have lived through contexts of prostitution, abuse and abandonment, helping them rebuild their identity, self-esteem and life project."
+      },
+      {
+        "icon": "⚡",
+        "title": "Youth",
+        "sub": "From addiction to purpose",
+        "body": "We work with young people who grew up surrounded by drugs and violence. Through community and training, we now see new life paths with purpose."
+      },
+      {
+        "icon": "🤝",
+        "title": "Men",
+        "sub": "From violence to responsibility",
+        "body": "Men who now lead communities, once involved in gangs. Today they work honestly, have restored their families and are positive references."
+      },
+      {
+        "icon": "🌱",
+        "title": "Children & Teens",
+        "sub": "The generation that will grow differently",
+        "body": "We invest in forming children and adolescents with values, identity and purpose, planting a generation that will not repeat the stories of the past."
+      }
+    ],
+    "noches_label": "Nights with Jesus",
+    "noches_title": "The model that goes where others don't",
+    "noches_body": "Every week, teams of leaders are deployed in neighborhoods and districts of Medellín to create meeting spaces where people can experience faith, community and restoration — without needing to leave their context.",
+    "noches_items": [
+      "Weekly gatherings in local communities",
+      "Leadership formed within the same territory",
+      "Continuous accompaniment, not isolated events",
+      "Relational focus: connection, prayer, follow-up"
+    ]
+  },
+  "vision": {
+    "label": "Vision",
+    "title": "Why Medellín",
+    "body": "Medellín is a city the world knows for its past... but that today is writing a new story. After decades marked by conflict, it represents one of the most relevant cases of urban transformation in the world. However, in many districts, inequality, structural violence and lack of opportunities persist.",
+    "diferencia_title": "What sets us apart",
+    "diferencia_items": [
+      "Real presence in the territory — we don't operate from a distance",
+      "Relational and sustainable model — we don't depend on mass events",
+      "Formation of local leaders — change stays in the community",
+      "Integral focus — spiritual, social and economic",
+      "Expansion capacity — replicable model in new cities"
+    ],
+    "largo_title": "Long-term Vision",
+    "largo_body": "We believe in a church that not only grows, but establishes itself, consolidates and multiplies. We are working toward a space that becomes a transformation center for the city, a sending point toward new territories, and a platform to scale the model to Rionegro, Bello and more municipalities."
+  },
+  "donar": {
+    "label": "Give",
+    "title": "Be part of the transformation",
+    "body": "Your investment here changes real stories, strengthens entire communities and builds a model that can be replicated in other cities. This is not just social impact. It's transformation with eternal purpose.",
+    "how_title": "How your giving is used",
+    "how_items": [
+      "Physical infrastructure development — spaces for greater reach and capacity.",
+      "Leader formation and multiplication across all segments.",
+      "Transformation programs: women, youth, men, children."
+    ],
+    "cta": "Give Now",
+    "infra_title": "Infrastructure as an impact accelerator",
+    "infra_body": "We are taking a strategic step toward consolidating our own space — a place that allows sustained massive impact, continuous operation without restrictions, and model scalability."
+  },
+  "contacto": {
+    "label": "Connect",
+    "title": "Medellín is ready.",
+    "body": "If you are evaluating where to invest your time, resources and trust, we want to talk with you. The model is working. Now is the moment to scale.",
+    "pastor": "Andrés Guerra",
+    "cargo": "Senior Pastor — THE CHURCH MEDELLÍN",
+    "tel": "+57 318 689 8956",
+    "form_name": "Your name",
+    "form_email": "Your email",
+    "form_msg": "Your message",
+    "form_send": "Send message"
+  },
+  "footer": {
+    "rights": "© 2024 The Church Medellín. All rights reserved.",
+    "follow": "Follow us"
+  },
+  "video": {
+    "placeholder": "Video coming soon"
+  },
+  "ubicacion": {
+    "label": "Find Us",
+    "title": "Come home",
+    "horario_label": "Service times",
+    "horario": "Every Sunday",
+    "hora": "10:00 AM — One service only",
+    "dir_label": "Address",
+    "dir1": "Itagüí – San Fernando",
+    "dir2": "Half a block from Parque de las Chimeneas",
+    "dir3": "Electroservimos Building – 3rd Floor",
+    "dir4": "Calle 86 # 51A – 16",
+    "btn_gmaps": "Google Maps",
+    "btn_waze": "Waze",
+    "btn_apple": "Apple Maps",
+    "btn_get_directions": "Get Directions"
+  }
+}
