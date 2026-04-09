@@ -82,7 +82,7 @@ export default function Vision() {
         {/* Long-term vision — image only (sembramos, avanzamos, permanecemos) */}
         <RevealDiv>
           <div className="flex justify-center">
-            <div className="relative overflow-hidden rounded-sm w-full max-w-4xl">
+            <div className="relative overflow-hidden rounded-2xl w-full max-w-4xl">
               <Image
                 src="/img-frase.jpg"
                 alt="Sembramos, Avanzamos, Permanecemos — The Church Medellín"

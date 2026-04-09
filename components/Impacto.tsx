@@ -39,22 +39,50 @@ export default function Impacto() {
           </div>
         </RevealDiv>
 
-        {/* MADE banner */}
+        {/* MADE banner — redesigned */}
         <RevealDiv className="mb-16">
-          <div className="relative overflow-hidden rounded-sm bg-[#c9a96e]">
-            <div className="grid lg:grid-cols-5">
-              <div className="lg:col-span-2 p-10 lg:p-14 flex flex-col justify-center relative overflow-hidden">
-                <span
-                  className="font-display font-black text-[#080808]/12 absolute inset-0 flex items-center justify-center select-none pointer-events-none leading-none tracking-tighter"
-                  style={{ fontSize: "clamp(5rem, 14vw, 18rem)" }}
-                >
-                  MADE
-                </span>
-                <p className="section-label text-[#080808]/70 mb-3 relative z-10">{t("made_label")}</p>
-                <h3 className="font-display text-3xl font-black text-[#080808] mb-4 leading-tight relative z-10">{t("made_title")}</h3>
-                <p className="text-[#080808]/75 text-sm leading-relaxed relative z-10">{t("made_body")}</p>
+          <div className="relative overflow-hidden rounded-xl bg-[#c9a96e]">
+            <div className="grid lg:grid-cols-5 min-h-[360px]">
+
+              {/* Left: text content */}
+              <div className="lg:col-span-2 p-10 lg:p-14 flex flex-col justify-between relative z-10">
+                {/* Top block */}
+                <div>
+                  {/* MADE as contained heading */}
+                  <h2 className="font-display text-[5.5rem] lg:text-[7rem] font-black text-[#080808] leading-none tracking-tighter mb-3">
+                    MADE
+                  </h2>
+                  <div className="h-0.5 w-full bg-[#080808]/20 mb-6" />
+                  <p className="section-label text-[#080808]/60 mb-2">{t("made_label")}</p>
+                  <h3 className="font-display text-2xl lg:text-3xl font-black text-[#080808] mb-4 leading-tight">
+                    {t("made_title")}
+                  </h3>
+                  <p className="text-[#080808]/70 text-sm leading-relaxed max-w-sm">
+                    {t("made_body")}
+                  </p>
+                </div>
+
+                {/* Bottom: 5 spheres */}
+                <div className="mt-8 flex flex-wrap gap-2">
+                  {[
+                    "Gobierno",
+                    "Fuerzas Militares",
+                    "Educación",
+                    "Deporte",
+                    "Sistema Penitenciario",
+                  ].map((sphere) => (
+                    <span
+                      key={sphere}
+                      className="text-[11px] font-bold tracking-wide uppercase bg-[#080808]/10 hover:bg-[#080808]/20 text-[#080808] px-3 py-1.5 rounded-full transition-colors cursor-default"
+                    >
+                      {sphere}
+                    </span>
+                  ))}
+                </div>
               </div>
-              <div className="lg:col-span-3 relative" style={{ minHeight: "340px" }}>
+
+              {/* Right: image */}
+              <div className="lg:col-span-3 relative">
                 <Image
                   src="/img-teaching.jpg"
                   alt="MADE — The Church Medellín"
@@ -64,10 +92,13 @@ export default function Impacto() {
                   style={{ objectPosition: "center 25%" }}
                   quality={85}
                 />
+                {/* Fade from gold to image */}
+                <div className="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-[#c9a96e] to-transparent hidden lg:block pointer-events-none" />
               </div>
             </div>
           </div>
         </RevealDiv>
+
 
         {/* 4 impact cards */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-20">
