@@ -275,7 +275,7 @@ export default function Donar() {
               <div className="h-px w-16 bg-[#c9a96e]/25" /><div className="text-[#c9a96e]/25 text-sm">✦</div><div className="h-px w-16 bg-[#c9a96e]/25" />
             </div>
             <p className="font-display text-2xl md:text-3xl italic text-[#c9a96e] leading-relaxed">
-              &ldquo;Te bendeciré para que sea de bendición.&rdquo;
+              &ldquo;Te bendeciré para que seas de bendición.&rdquo;
             </p>
           </div>
         </RevealDiv>

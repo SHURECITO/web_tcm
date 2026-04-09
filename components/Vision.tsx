@@ -81,17 +81,19 @@ export default function Vision() {
 
         {/* Long-term vision — image only (sembramos, avanzamos, permanecemos) */}
         <RevealDiv>
-          <div className="relative overflow-hidden rounded-sm">
-            <Image
-              src="/img-frase.jpg"
-              alt="Sembramos, Avanzamos, Permanecemos — The Church Medellín"
-              width={1400}
-              height={500}
-              className="w-full object-cover object-center max-h-[50vh]"
-              quality={85}
-            />
-            {/* Subtle vignette only, no text */}
-            <div className="absolute inset-0 bg-gradient-to-b from-[#080808]/10 via-transparent to-[#080808]/10 pointer-events-none" />
+          <div className="flex justify-center">
+            <div className="relative overflow-hidden rounded-sm w-full max-w-4xl">
+              <Image
+                src="/img-frase.jpg"
+                alt="Sembramos, Avanzamos, Permanecemos — The Church Medellín"
+                width={1400}
+                height={900}
+                className="w-full h-auto"
+                quality={85}
+              />
+              {/* Subtle vignette only, no text */}
+              <div className="absolute inset-0 bg-gradient-to-b from-[#080808]/8 via-transparent to-[#080808]/8 pointer-events-none" />
+            </div>
           </div>
         </RevealDiv>
       </div>
