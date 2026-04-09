@@ -35,15 +35,6 @@ const videos = [
     sub_en: "Your pain becomes worship",
   },
   {
-    src: "/videos/testimony-alejo-caro-2.mp4",
-    label_es: "Testimonio",
-    title_es: "Alejo y Caro — Fe y Café",
-    sub_es: "Historia completa en YouTube",
-    label_en: "Testimony",
-    title_en: "Alejo & Caro — Fe y Café",
-    sub_en: "Full story on YouTube",
-  },
-  {
     src: "/videos/inspire-complete.mp4",
     label_es: "Esperanza",
     title_es: "Dios puede llenarte",
@@ -51,15 +42,6 @@ const videos = [
     label_en: "Hope",
     title_en: "God can fill you",
     sub_en: "Wholeness in Christ",
-  },
-  {
-    src: "/videos/inspire-father.mp4",
-    label_es: "Gracia",
-    title_es: "El Padre espera con los brazos abiertos",
-    sub_es: "Siempre hay camino de regreso a Casa",
-    label_en: "Grace",
-    title_en: "The Father waits with open arms",
-    sub_en: "There's always a way back Home",
   },
 ];
 

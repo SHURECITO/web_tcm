@@ -43,11 +43,11 @@ export default function Impacto() {
         <RevealDiv className="mb-16">
           <div className="relative overflow-hidden rounded-sm bg-[#c9a96e]">
             <div className="grid lg:grid-cols-5">
-              <div className="lg:col-span-2 p-10 lg:p-14 flex flex-col justify-center relative">
-                <span className="font-display text-9xl font-black text-[#080808]/10 absolute -top-4 -left-2 select-none hidden lg:block pointer-events-none">MADE</span>
-                <p className="section-label text-[#080808]/60 mb-3 relative">{t("made_label")}</p>
-                <h3 className="font-display text-3xl font-black text-[#080808] mb-4 leading-tight relative">{t("made_title")}</h3>
-                <p className="text-[#080808]/70 text-sm leading-relaxed relative">{t("made_body")}</p>
+              <div className="lg:col-span-2 p-10 lg:p-14 flex flex-col justify-center relative overflow-hidden">
+                <span className="font-display text-[8rem] font-black text-[#080808]/15 absolute -top-3 -left-2 select-none hidden lg:block pointer-events-none leading-none tracking-tighter">MADE</span>
+                <p className="section-label text-[#080808]/70 mb-3 relative z-10">{t("made_label")}</p>
+                <h3 className="font-display text-3xl font-black text-[#080808] mb-4 leading-tight relative z-10">{t("made_title")}</h3>
+                <p className="text-[#080808]/75 text-sm leading-relaxed relative z-10">{t("made_body")}</p>
               </div>
               <div className="lg:col-span-3 relative" style={{ minHeight: "340px" }}>
                 <Image

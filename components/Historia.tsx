@@ -68,21 +68,29 @@ export default function Historia() {
           <p className="text-white/35 mt-4 text-base max-w-md mx-auto">{t("intro")}</p>
         </RevealDiv>
 
-        {/* Scripture verse */}
+        {/* Scripture verse — text only */}
         <RevealDiv className="mb-28">
-          <div className="relative w-full overflow-hidden rounded-sm" style={{ minHeight: "360px" }}>
-            <Image
-              src="/img-verse.jpg"
-              alt="Salmos 126"
-              fill sizes="100vw"
-              className="object-cover"
-              style={{ objectPosition: "center 20%" }}
-              quality={85}
-            />
-            <div className="absolute inset-0 bg-[#080808]/62 flex items-center justify-center p-8 md:p-16">
-              <blockquote className="font-display text-xl md:text-3xl lg:text-4xl italic text-[#f4f0e8] text-center max-w-3xl leading-snug">
-                &ldquo;{t("frase")}&rdquo;
+          <div className="relative w-full rounded-sm border border-[#c9a96e]/20 bg-[#0a0a0a] overflow-hidden">
+            {/* Decorative corner accents */}
+            <div className="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-[#c9a96e]/40 rounded-tl-sm" />
+            <div className="absolute top-0 right-0 w-16 h-16 border-t-2 border-r-2 border-[#c9a96e]/40 rounded-tr-sm" />
+            <div className="absolute bottom-0 left-0 w-16 h-16 border-b-2 border-l-2 border-[#c9a96e]/40 rounded-bl-sm" />
+            <div className="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-[#c9a96e]/40 rounded-br-sm" />
+            {/* Subtle background glow */}
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+              <div className="w-[500px] h-[200px] rounded-full bg-[#c9a96e]/5 blur-3xl" />
+            </div>
+            <div className="relative flex flex-col items-center justify-center py-16 px-8 md:px-20 text-center gap-6">
+              <div className="text-[#c9a96e]/40 text-5xl leading-none font-serif select-none">&ldquo;</div>
+              <blockquote className="font-display text-xl md:text-3xl lg:text-4xl italic text-[#f4f0e8] leading-snug max-w-3xl -mt-4">
+                {t("frase")}
               </blockquote>
+              <div className="text-[#c9a96e]/40 text-5xl leading-none font-serif select-none -mt-4">&rdquo;</div>
+              <div className="flex items-center gap-4 mt-2">
+                <div className="h-px w-12 bg-[#c9a96e]/40" />
+                <span className="section-label tracking-widest">Salmos 126:1–3</span>
+                <div className="h-px w-12 bg-[#c9a96e]/40" />
+              </div>
             </div>
           </div>
         </RevealDiv>
