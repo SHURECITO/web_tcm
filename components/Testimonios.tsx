@@ -163,7 +163,7 @@ export default function Testimonios({ locale }: { locale: string }) {
         {/* Horizontal scroll track */}
         <div
           ref={scrollRef}
-          className="flex gap-4 overflow-x-auto pb-4 scrollbar-hide"
+          className="flex gap-4 overflow-x-auto pb-4 scrollbar-hide justify-center"
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
           {videos.map((video, i) => (

@@ -268,16 +268,15 @@ export default function Donar() {
           </div>
         </RevealDiv>
 
-        {/* Scripture */}
+        {/* Phrase */}
         <RevealDiv className="mt-20 text-center">
           <div className="max-w-2xl mx-auto">
             <div className="flex items-center justify-center gap-4 mb-6">
               <div className="h-px w-16 bg-[#c9a96e]/25" /><div className="text-[#c9a96e]/25 text-sm">✦</div><div className="h-px w-16 bg-[#c9a96e]/25" />
             </div>
-            <p className="font-display text-2xl md:text-3xl italic text-[#c9a96e] leading-relaxed mb-3">
-              &ldquo;Grandes cosas ha hecho Jehová con nosotros; estaremos alegres.&rdquo;
+            <p className="font-display text-2xl md:text-3xl italic text-[#c9a96e] leading-relaxed">
+              &ldquo;Te bendeciré para que sea de bendición.&rdquo;
             </p>
-            <p className="text-white/20 text-sm tracking-widest uppercase">Salmos 126:3</p>
           </div>
         </RevealDiv>
       </div>

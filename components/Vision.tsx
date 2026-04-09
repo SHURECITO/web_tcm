@@ -79,25 +79,19 @@ export default function Vision() {
           </div>
         </div>
 
-        {/* Long-term vision — full banner */}
+        {/* Long-term vision — image only (sembramos, avanzamos, permanecemos) */}
         <RevealDiv>
           <div className="relative overflow-hidden rounded-sm">
             <Image
               src="/img-frase.jpg"
-              alt="Visión de largo plazo — The Church Medellín"
+              alt="Sembramos, Avanzamos, Permanecemos — The Church Medellín"
               width={1400}
               height={500}
               className="w-full object-cover object-center max-h-[50vh]"
-              quality={80}
+              quality={85}
             />
-            <div className="absolute inset-0 bg-[#080808]/75 flex items-center p-10 lg:p-20">
-              <div className="max-w-2xl">
-                <p className="section-label mb-4">{t("largo_title")}</p>
-                <p className="text-[#f4f0e8] text-xl md:text-2xl font-medium leading-relaxed">
-                  {t("largo_body")}
-                </p>
-              </div>
-            </div>
+            {/* Subtle vignette only, no text */}
+            <div className="absolute inset-0 bg-gradient-to-b from-[#080808]/10 via-transparent to-[#080808]/10 pointer-events-none" />
           </div>
         </RevealDiv>
       </div>
