@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
 
 function RevealDiv({ children, className = "", delay = 0 }: { children: React.ReactNode; className?: string; delay?: number }) {
@@ -19,6 +19,8 @@ function RevealDiv({ children, className = "", delay = 0 }: { children: React.Re
 
 export default function Impacto() {
   const t = useTranslations("impacto");
+  const locale = useLocale();
+  const isEs = locale !== "en";
   const cards = t.raw("cards") as Array<{ icon: string; title: string; sub: string; body: string }>;
 
   return (
@@ -65,11 +67,11 @@ export default function Impacto() {
                 {/* Bottom: 5 spheres */}
                 <div className="mt-8 flex flex-wrap gap-2">
                   {[
-                    "Gobierno",
-                    "Fuerzas Militares",
-                    "Educación",
-                    "Deporte",
-                    "Sistema Penitenciario",
+                    isEs ? "Gobierno" : "Government",
+                    isEs ? "Fuerzas Militares" : "Military Forces",
+                    isEs ? "Educación" : "Education",
+                    isEs ? "Deporte" : "Sports",
+                    isEs ? "Sistema Penitenciario" : "Penitentiary System",
                   ].map((sphere) => (
                     <span
                       key={sphere}
