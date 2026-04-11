@@ -57,6 +57,7 @@ export default function About() {
                 src="/img-andres-esdras.jpg"
                 alt="Pastores The Church Medellín"
                 fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover object-center grayscale hover:grayscale-0 transition-all duration-700"
                 quality={85}
               />

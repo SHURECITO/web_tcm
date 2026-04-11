@@ -217,22 +217,25 @@ export default function Donar() {
                   <p className="text-[#c9a96e] text-xs tracking-widest uppercase font-semibold">USD / EUR / {isEs ? "Otras divisas" : "Other currencies"}</p>
                 </div>
               </div>
-              <div className="px-8 py-10 flex flex-col items-center justify-center text-center min-h-[220px] gap-4">
-                <div className="w-16 h-16 rounded-full border border-dashed border-[#c9a96e]/30 flex items-center justify-center text-2xl">🌐</div>
-                <p className="text-[#f4f0e8] font-display font-bold text-xl">{isEs ? "Próximamente" : "Coming Soon"}</p>
-                <p className="text-white/35 text-sm leading-relaxed max-w-xs">
-                  {isEs
-                    ? "Estamos habilitando transferencias internacionales. Por ahora, contáctanos directamente para coordinar tu donación."
-                    : "We're enabling international transfers. For now, contact us directly to coordinate your donation."}
-                </p>
-                <a
-                  href="https://wa.me/573186898956"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-2 inline-flex items-center gap-2 bg-[#25D366]/10 border border-[#25D366]/30 text-[#25D366] text-xs font-bold tracking-widest uppercase px-5 py-2.5 hover:bg-[#25D366]/20 hover:border-[#25D366]/60 transition-all rounded"
-                >
-                  💬 {isEs ? "Escribir por WhatsApp" : "Contact on WhatsApp"}
-                </a>
+              <div className="px-8 py-6 grid gap-8 items-start">
+                <div className="space-y-4">
+                  {[
+                    { label: isEs ? "Titular" : "Account Holder", value: "CCI Mi Casa" },
+                    { label: isEs ? "Tipo de cuenta" : "Account Type", value: isEs ? "Cuenta de Ahorros" : "Savings Account" },
+                    { label: isEs ? "N° de cuenta" : "Account N°", value: "37500002218", copy: true },
+                    { label: "NIT", value: "901278358", copy: true },
+                    { label: "Banco", value: "Bancolombia" },
+                    { label: isEs ? "Código SWIFT" : "SWIFT Code", value: "COLOCOBM", copy: true },
+                  ].map(({ label, value, copy }) => (
+                    <div key={label}>
+                      <p className="text-white/30 text-[10px] tracking-widest uppercase mb-0.5">{label}</p>
+                      <div className="flex items-center">
+                        <p className="text-[#f4f0e8] font-semibold text-sm">{value}</p>
+                        {copy && <CopyButton text={value} />}
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </RevealDiv>
@@ -275,7 +278,7 @@ export default function Donar() {
               <div className="h-px w-16 bg-[#c9a96e]/25" /><div className="text-[#c9a96e]/25 text-sm">✦</div><div className="h-px w-16 bg-[#c9a96e]/25" />
             </div>
             <p className="font-display text-2xl md:text-3xl italic text-[#c9a96e] leading-relaxed">
-              &ldquo;Te bendeciré para que seas de bendición.&rdquo;
+              &ldquo;{isEs ? "Te bendeciré para que seas de bendición." : "I will bless you so you will be a blessing."}&rdquo;
             </p>
           </div>
         </RevealDiv>

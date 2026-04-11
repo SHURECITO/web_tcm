@@ -51,6 +51,7 @@ export default function Navbar() {
               src="/logo.png"
               alt="The Cxurch Medellín"
               fill
+              sizes="40px"
               className="object-contain"
               style={{ mixBlendMode: "screen" }}
               priority

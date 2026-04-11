@@ -112,6 +112,8 @@ const jsonLd = {
   ],
 };
 
+import LanguagePrompt from "@/components/LanguagePrompt";
+
 export default async function LocaleLayout({
   children,
   params,
@@ -138,6 +140,7 @@ export default async function LocaleLayout({
       <body>
         <NextIntlClientProvider messages={messages}>
           {children}
+          <LanguagePrompt />
         </NextIntlClientProvider>
       </body>
     </html>

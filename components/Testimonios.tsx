@@ -26,6 +26,15 @@ const videos = [
     sub_en: "Caro & Alejo at Fe y Café",
   },
   {
+    src: "/videos/inspire-father.mp4",
+    label_es: "Inspiración",
+    title_es: "El amor del Padre",
+    sub_es: "Un mensaje a tu corazón",
+    label_en: "Inspiration",
+    title_en: "The Father's love",
+    sub_en: "A message to your heart",
+  },
+  {
     src: "/videos/inspire-transform.mp4",
     label_es: "Transformación",
     title_es: "Dios puede transformar tu vida",

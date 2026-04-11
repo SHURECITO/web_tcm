@@ -17,12 +17,14 @@ function RevealDiv({ children, className = "", delay = 0 }: { children: React.Re
   return <div ref={ref} className={`reveal ${className}`}>{children}</div>;
 }
 
+import { FiInstagram, FiFacebook, FiYoutube } from "react-icons/fi";
+
 const WHATSAPP_URL = "https://wa.me/573186898956";
 
 const socials = [
-  { label: "Instagram", short: "IG", url: "https://www.instagram.com/thechurchmedellin/" },
-  { label: "Facebook", short: "FB", url: "https://www.facebook.com/thechurchmedellin/?locale=es_LA" },
-  { label: "YouTube", short: "YT", url: "https://www.youtube.com/@thechurchmedellin" },
+  { label: "Instagram", icon: FiInstagram, url: "https://www.instagram.com/thechurchmedellin/" },
+  { label: "Facebook", icon: FiFacebook, url: "https://www.facebook.com/thechurchmedellin/?locale=es_LA" },
+  { label: "YouTube", icon: FiYoutube, url: "https://www.youtube.com/@thechurchmedellin" },
 ];
 
 export default function Contacto() {
@@ -73,8 +75,8 @@ export default function Contacto() {
               <div className="flex flex-wrap gap-3">
                 {socials.map((s) => (
                   <a key={s.label} href={s.url} target="_blank" rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-xs font-bold tracking-widest uppercase text-white/45 hover:text-[#c9a96e] border border-white/10 hover:border-[#c9a96e]/40 px-4 py-2.5 rounded transition-colors">
-                    <span className="text-[#c9a96e]">{s.short}</span> {s.label}
+                    className="inline-flex items-center gap-2 text-xs font-bold tracking-widest uppercase text-white/45 hover:text-[#c9a96e] border border-white/10 hover:border-[#c9a96e]/40 px-4 py-2.5 rounded transition-colors group">
+                    <s.icon className="w-4 h-4 text-white/35 group-hover:text-[#c9a96e] transition-colors" /> {s.label}
                   </a>
                 ))}
               </div>
