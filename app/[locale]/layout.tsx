@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import { Analytics } from "@vercel/analytics/next";
 import "../globals.css";
 
 export async function generateMetadata({
@@ -139,6 +140,7 @@ export default async function LocaleLayout({
           {children}
           <LanguagePrompt />
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );
