@@ -19,7 +19,7 @@ function RevealDiv({ children, className = "", delay = 0 }: { children: React.Re
 
 import { FiInstagram, FiFacebook, FiYoutube } from "react-icons/fi";
 
-const WHATSAPP_URL = "https://wa.me/573186898956";
+const WHATSAPP_URL = "https://wa.me/573215670395";
 
 const socials = [
   { label: "Instagram", icon: FiInstagram, url: "https://www.instagram.com/thechurchmedellin/" },
@@ -49,25 +49,6 @@ export default function Contacto() {
               <p className="text-white/55 text-lg leading-relaxed mb-10">{t("body")}</p>
             </RevealDiv>
 
-            {/* Pastor card */}
-            <RevealDiv delay={150}>
-              <div className="flex items-center gap-6 p-6 bg-[#111111] border border-white/8 rounded-sm mb-8 hover:border-[#c9a96e]/30 transition-colors group">
-                <div className="relative w-20 h-20 rounded-full overflow-hidden flex-shrink-0 border-2 border-[#c9a96e]/25 group-hover:border-[#c9a96e] transition-colors">
-                  <Image
-                    src="/img-andres-esdras.jpg"
-                    alt="Andrés Guerra — Senior Pastor"
-                    fill
-                    className="object-cover grayscale"
-                    style={{ objectPosition: "center 10%" }}
-                    quality={70}
-                  />
-                </div>
-                <div>
-                  <p className="font-display text-xl font-bold text-[#f4f0e8]">{t("pastor")}</p>
-                  <p className="text-[#c9a96e] text-xs tracking-widest uppercase mt-1">{t("cargo")}</p>
-                </div>
-              </div>
-            </RevealDiv>
 
             {/* Socials */}
             <RevealDiv delay={220}>
@@ -116,7 +97,7 @@ export default function Contacto() {
                 {isEs ? "Abrir WhatsApp" : "Open WhatsApp"}
               </a>
 
-              <p className="text-white/20 text-xs">+57 318 689 8956</p>
+              <p className="text-white/20 text-xs">+57 321 567 0395</p>
             </div>
           </RevealDiv>
         </div>

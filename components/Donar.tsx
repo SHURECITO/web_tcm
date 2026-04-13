@@ -141,8 +141,41 @@ export default function Donar() {
         {/* Payment methods */}
         <div className="grid lg:grid-cols-2 gap-6 mb-12">
 
-          {/* Colombia — Bancolombia */}
+          {/* Internacional */}
           <RevealDiv delay={0}>
+            <div className="bg-[#111111] border border-white/8 hover:border-[#c9a96e]/30 transition-colors rounded-sm overflow-hidden h-full">
+              <div className="px-8 py-5 border-b border-white/5 flex items-center gap-4">
+                <div className="w-10 h-10 bg-[#c9a96e]/10 rounded-full flex items-center justify-center text-[#c9a96e] text-lg font-black">$</div>
+                <div>
+                  <h3 className="font-display text-xl font-bold text-[#f4f0e8]">{isEs ? "Transferencia Internacional" : "International Transfer"}</h3>
+                  <p className="text-[#c9a96e] text-xs tracking-widest uppercase font-semibold">USD / EUR / {isEs ? "Otras divisas" : "Other currencies"}</p>
+                </div>
+              </div>
+              <div className="px-8 py-6 grid gap-8 items-start">
+                <div className="space-y-4">
+                  {[
+                    { label: isEs ? "Titular" : "Account Holder", value: "CCI Mi Casa" },
+                    { label: isEs ? "Tipo de cuenta" : "Account Type", value: isEs ? "Cuenta de Ahorros" : "Savings Account" },
+                    { label: isEs ? "N° de cuenta" : "Account N°", value: "37500002218", copy: true },
+                    { label: "NIT", value: "901278358", copy: true },
+                    { label: "Banco", value: "Bancolombia" },
+                    { label: isEs ? "Código SWIFT" : "SWIFT Code", value: "COLOCOBM", copy: true },
+                  ].map(({ label, value, copy }) => (
+                    <div key={label}>
+                      <p className="text-white/30 text-[10px] tracking-widest uppercase mb-0.5">{label}</p>
+                      <div className="flex items-center">
+                        <p className="text-[#f4f0e8] font-semibold text-sm">{value}</p>
+                        {copy && <CopyButton text={value} />}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </RevealDiv>
+
+          {/* Colombia — Bancolombia */}
+          <RevealDiv delay={120}>
             <div className="bg-[#111111] border border-white/8 hover:border-[#c9a96e]/30 transition-colors rounded-sm overflow-hidden h-full">
               <div className="px-8 py-5 border-b border-white/5 flex items-center gap-4">
                 <div className="w-10 h-10 bg-[#c9a96e]/10 rounded-full flex items-center justify-center text-[#c9a96e] text-lg font-black">₱</div>
@@ -206,39 +239,6 @@ export default function Donar() {
               </div>
             </div>
           </RevealDiv>
-
-          {/* Internacional */}
-          <RevealDiv delay={120}>
-            <div className="bg-[#111111] border border-white/8 hover:border-[#c9a96e]/30 transition-colors rounded-sm overflow-hidden h-full">
-              <div className="px-8 py-5 border-b border-white/5 flex items-center gap-4">
-                <div className="w-10 h-10 bg-[#c9a96e]/10 rounded-full flex items-center justify-center text-[#c9a96e] text-lg font-black">$</div>
-                <div>
-                  <h3 className="font-display text-xl font-bold text-[#f4f0e8]">{isEs ? "Transferencia Internacional" : "International Transfer"}</h3>
-                  <p className="text-[#c9a96e] text-xs tracking-widest uppercase font-semibold">USD / EUR / {isEs ? "Otras divisas" : "Other currencies"}</p>
-                </div>
-              </div>
-              <div className="px-8 py-6 grid gap-8 items-start">
-                <div className="space-y-4">
-                  {[
-                    { label: isEs ? "Titular" : "Account Holder", value: "CCI Mi Casa" },
-                    { label: isEs ? "Tipo de cuenta" : "Account Type", value: isEs ? "Cuenta de Ahorros" : "Savings Account" },
-                    { label: isEs ? "N° de cuenta" : "Account N°", value: "37500002218", copy: true },
-                    { label: "NIT", value: "901278358", copy: true },
-                    { label: "Banco", value: "Bancolombia" },
-                    { label: isEs ? "Código SWIFT" : "SWIFT Code", value: "COLOCOBM", copy: true },
-                  ].map(({ label, value, copy }) => (
-                    <div key={label}>
-                      <p className="text-white/30 text-[10px] tracking-widest uppercase mb-0.5">{label}</p>
-                      <div className="flex items-center">
-                        <p className="text-[#f4f0e8] font-semibold text-sm">{value}</p>
-                        {copy && <CopyButton text={value} />}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </RevealDiv>
         </div>
 
         {/* Infrastructure banner */}
@@ -260,7 +260,7 @@ export default function Donar() {
               <h3 className="font-display text-2xl md:text-3xl font-black text-[#f4f0e8] mb-4 leading-tight">{t("infra_title")}</h3>
               <p className="text-white/50 text-base leading-relaxed mb-8">{t("infra_body")}</p>
               <a
-                href="https://wa.me/573186898956"
+                href="https://wa.me/573215670395"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#c9a96e] text-[#080808] font-bold text-xs tracking-widest uppercase px-7 py-3 hover:bg-[#e8c98a] transition-all rounded self-start"

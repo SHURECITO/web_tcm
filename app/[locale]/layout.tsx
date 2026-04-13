@@ -99,7 +99,7 @@ const jsonLd = {
   },
   contactPoint: {
     "@type": "ContactPoint",
-    telephone: "+57-318-689-8956",
+    telephone: "+57-321-567-0395",
     contactType: "customer support",
     availableLanguage: ["Spanish", "English"],
   },
